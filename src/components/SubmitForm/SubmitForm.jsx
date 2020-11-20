@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import styles from "./SubmitForm.module.scss";
+import { Form } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css'
 
 class SubmitForm extends Component {
 
@@ -15,15 +17,14 @@ class SubmitForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <Form onSubmit={this.handleSubmit}>
         <input 
           type="text" 
           placeholder="Add Todo"
           value={this.state.entry}
           onChange={(e) => this.setState({entry: e.target.value})}
         />
-        <button>Add</button>
-      </form>
+      </Form>
     );
   }
 }

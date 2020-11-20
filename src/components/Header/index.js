@@ -1,3 +1,3 @@
-import Header from "./Header";
+import HeaderSection from "./HeaderSection";
 
-export default Header;
+export default HeaderSection;
