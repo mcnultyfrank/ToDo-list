@@ -4,3 +4,4 @@
 - TodoList... map over our list of todos (in state) and produce a todo component for each one
   - Todo... house our content for each todo
 - SubmitForm... has input box and submit button for adding a todo
+- Includes a random name api that will display a different name on every refresh
