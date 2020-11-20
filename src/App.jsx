@@ -7,7 +7,7 @@ import SubmitForm from './components/SubmitForm/SubmitForm';
 
 class App extends Component {
   state = {
-    tasks: ['task 1', 'task 2', 'task 3'],
+    tasks: [],
     user: {}
   }
   componentDidMount() {
